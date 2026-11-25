@@ -12,14 +12,14 @@ h1 {
 .galeria {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .card {
-    background-color: white;
+    background-color: rgb(234, 185, 221);
     width: 300px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -35,4 +35,8 @@ h1 {
 
 .card p {
     font-size: 16px;
+}
+
+.card img {
+    border-radius: 20px;
 }
